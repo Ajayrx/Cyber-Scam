@@ -4,113 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Safety for Seniors</title>
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ff6f6f, #8375f4); 
-    margin: 0;
-    padding: 20px;
-    font-weight: bold;
-    text-align: absolute;
-    }
-
-        h1 {
-            color: #000000;
-            font-size: 48px;
-            
-        }
-        .intro {
-            display: inline-block;
-            overflow: hidden;
-            white-space: nowrap;
-            margin: 0;
-            font-size: 30px;
-            animation: typing 10s steps(80) infinite, blink 0.90s step-end infinite;
-        }
-
-        .intro {
-            font-size: 25px;
-            margin-top: 10px;
-            animation-delay: 5s; /* Starts intro after title */
-        }
-
-        @keyframes typing {
-            from {
-                width: 0;
-            }
-            to {
-                width: 100%;
-            }
-        }
-
-        @keyframes blink {
-            50% {
-                border-color: transparent;
-            }
-        }
-        
-        .highlight {
-            color: #010900;
-            font-size: 16;
-            font-weight: bold;
-        }
-        .resources {
-            background: transparent;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
-            margin: 20px 0;
-        }
-        .resources h2 {
-            color: #2196F3;
-        }
-        .card {
-            background: transparent;
-            border-radius: 8px;
-            padding: 15px;
-            margin: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
-            display: inline-block;
-            width: 45%;
-        }
-        .card p {
-            font-size: 16px;
-            color: #141414;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 24px;
-            color: #030000;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1 class="logo">Cyber Safety for Seniors</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Scams</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Learn More</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Cyber Safety for Senior Citizens.</h1>
-    <p class="intro">
-        Cyber scams are becoming increasingly common, and it's crucial for seniors to stay informed.
-    </p>
+    <main>
+        <section class="hero">
+            <h2>Protect Your Digital Life</h2>
+            <p>Learn how to stay safe online.</p>
+            <a href="#" class="btn">Learn More</a>
+        </section>
 
-    <div class="resources">
-        
+        <section class="content">
+            <h2>Common Scams</h2>
+            <p>Beware of these common online scams.</p>
+            <ul>
+                <li>Phishing</li>
+                <li>Malware</li>
+                <li>Social Engineering</li>
+            </ul>
+        </section>
 
-        <div class="card">
-            <img src="image/hh.webp" alt="Cyber Safety Tips" style="width: 700px; height: 410px;">
-            
-        </div>
-        
-        <div class="card">
-            <img src="image/hu.avif" alt="Online Scams Awareness" style="width: 700px; height: 400px;">
-            
-        </div>
-    </div>
+        <section class="content">
+            <h2>Solutions to Stay Safe</h2>
+            <p>Here are some tips to protect yourself.</p>
+            <ul>
+                <li>Use strong passwords</li>
+                <li>Be cautious of suspicious emails</li>
+                <li>Keep your software updated</li>
+            </ul>
+        </section>
 
-    <p class="highlight">Stay safe, stay informed, and keep your finances secure!</p>
+        <section class="learn-more">
+            <h2>Learn More</h2>
+            <p>Explore our resources for in-depth information.</p>
+            <a href="#" class="btn">Learn More</a>
+        </section>
+    </main>
 
     <footer>
-        Let's work together to build a safer digital world for senior citizens!
+        <p>&copy; 2024 Cyber Safety for Seniors</p>
     </footer>
-
 </body>
 </html>
